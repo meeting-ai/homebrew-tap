@@ -5,21 +5,21 @@ class Memo < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.2/memo_0.19.2_darwin_arm64.tar.gz"
-      sha256 "c7c5be2f477376d85879d8c2c77beebdfef33f851a36a1b6f2b35e0f545ad645"
+      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.3/memo_0.19.3_darwin_arm64.tar.gz"
+      sha256 "30f9490e18f3b929cca5bfe2a9813c33412e898bd24d607f2e45b0c2ab47d6c7"
     else
-      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.2/memo_0.19.2_darwin_amd64.tar.gz"
-      sha256 "2fc515dc6b570cceb2be34308b28116bf71516ee95aee084e4e1d7b30c0d3652"
+      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.3/memo_0.19.3_darwin_amd64.tar.gz"
+      sha256 "4a543568c9fa89d44f2a8de960c3e0a9fda786ae8859e45e090d02d9d7b3fd8c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.2/memo_0.19.2_linux_arm64.tar.gz"
-      sha256 "6d53213817c9622a8e3d8d3734bb6d0a8b17e44056c4d65e284c2ff071e9cba8"
+      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.3/memo_0.19.3_linux_arm64.tar.gz"
+      sha256 "a2b1d65bf350ca975157e9dfc3b99b8db8b48f97b1fbfb57e331988857071ec3"
     else
-      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.2/memo_0.19.2_linux_amd64.tar.gz"
-      sha256 "4644cdeb948aca155304454a94930d0e628754a1a2057718178625bfdd65125a"
+      url "https://github.com/meeting-ai/memo-cli/releases/download/v0.19.3/memo_0.19.3_linux_amd64.tar.gz"
+      sha256 "6bccfcbe447964daa25bdcefd8ddd85b4806ae53ccb39c1348af06aaca990e08"
     end
   end
 
