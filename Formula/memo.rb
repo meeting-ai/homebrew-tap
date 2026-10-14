@@ -1,7 +1,6 @@
 class Memo < Formula
   desc "Let any AI agent hear your meetings as they happen"
   homepage "https://github.com/meeting-ai/memo-cli"
-  version "0.19.2"
   license "Apache-2.0"
 
   on_macos do
